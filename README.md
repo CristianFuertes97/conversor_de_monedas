@@ -14,6 +14,7 @@
     <li>Interfaz intuitiva para seleccionar monedas de origen y destino.</li>
     <li>Tasas de cambio actualizadas en tiempo real mediante la API ExchangeRate-API.</li>
     <li>Validación de entrada para evitar errores en la conversión.</li>
+    <li>Consultar el historial de las conversiones que has realizado.</li>
     <li>Conversión en tiempo real.</li>
 </ul>
 <h3>Interfaz de la Aplicación</h3>
@@ -39,9 +40,9 @@
 <ol>
     <li>Clona el repositorio con el comando mencionado.</li>
     <li>Regístrate en <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a> para obtener tu clave de API.</li>
-    <li>Configura la clave de API en el archivo de configuración del proyecto.</li>
     <li>Abre el proyecto en tu editor de Java preferido.</li>
-    <li>Compila y ejecuta el archivo <code>Main.java</code>.</li>
+    <li>Configura la clave de API en la siguiente direccion src/modelos/ConsultaAPi en la parte <span style=color="red">"apikey"</span> </li>
+    <li>Compila y ejecuta el archivo <code>Principal.java</code>.</li>
     <li>Interactúa con la interfaz gráfica para realizar conversiones de moneda en tiempo real.</li>
 </ol>
 
